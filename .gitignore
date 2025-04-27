@@ -1,0 +1,35 @@
+# .gitignore
+
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Optional: Ignore coverage reports
+coverage/
+
+# Optional: Ignore any dist output
+dist/
